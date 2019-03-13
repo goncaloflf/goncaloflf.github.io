@@ -299,6 +299,12 @@ a:active {
   color: rgba(255, 255, 255, 0.7);
 }
 
+@media (min-width: 576px) {
+  .container.portfolio-container {
+    max-width: none;
+  }
+}
+
 @media (min-width: 997px) {
   .portfolio-container {
     margin: auto;
