@@ -258,6 +258,7 @@ a:active {
 .portfolio-container {
   margin-left: 0;
   padding-left: 0;
+  padding-right: 0;
 }
 
 .languages {
@@ -279,6 +280,23 @@ a:active {
 
 .dev-icons {
   margin-bottom: 4rem;
+}
+
+.footer-section {
+  background-color: #2450ae;
+  padding: 1rem 3rem !important;
+}
+.footer-section p {
+  color: white;
+}
+
+.footer-section a {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer-section a:hover {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 @media (min-width: 997px) {
