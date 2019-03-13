@@ -264,6 +264,23 @@ a:active {
   font-size: 1.2em;
 }
 
+.list-inline-item {
+  position: relative;
+  margin-right: 1.8rem !important;
+  margin-bottom: 2rem;
+}
+
+.list-inline-item > div {
+  position: absolute;
+  font-size: 0.34em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dev-icons {
+  margin-bottom: 4rem;
+}
+
 @media (min-width: 997px) {
   .portfolio-container {
     margin: auto;
